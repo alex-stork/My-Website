@@ -1,0 +1,79 @@
+body {
+    background-color: #f8f8ff;
+    font-family: "Helvetica", Times, serif;
+    text-align: center;
+}
+
+.about_me {
+  max-width: 600px;
+  font-size: 1.2em;
+  margin: auto;
+}
+
+.menu .menu_items {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 50px;
+  margin-left: 5px;
+  border: 1px solid black;
+}
+
+.menu_items {
+  padding: 5px;
+  margin-top: 5px;
+  color: blue;
+}
+
+
+.left {
+  width: 50%;
+  order: 0;
+  padding-top: 1em;
+}
+
+.right {
+  width: 50%;
+  order: 1;
+}
+
+.alex-stork {
+  box-shadow: 10px 5px 20px #ccc;
+  width: 120px;
+  height: 120px;
+}
+
+footer {
+  font-size: 1em;
+  display: block;
+}
+
+h1, h3 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.head {
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  font-style: italic;
+}
+
+@media screen and (min-width: 550px) {
+  body {
+    background-color: red;
+}
+}
+
+@media screen and (min-width:800px) {
+  body {
+    background-color: brown;
+  }
+}
