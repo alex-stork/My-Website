@@ -9,18 +9,19 @@
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="left"><img class="logo" src="img/as_logo.jpg" alt="logo for alex stork"></div>
-      <div class="right">
-        <h1>Alex Stork</h1>
-        <h3>Front-End Web Developer</h3>
-      </div>
-    </div>
-  </header>
-
   <section class="menu">
-    <a name="top"></a>
+    <header>
+      <div class="container">
+        <div class="left"><img class="logo" src="img/as_logo.jpg" alt="logo for alex stork"></div>
+        <div class="right">
+          <h1>Alex Stork</h1>
+          <h3>Front-End Web Developer</h3>
+        </div>
+      </div>
+    </header>
+
+
+    <a id="top"></a>
     <ul>
       <li class="menu_items"><a href="#about_me">About Me</a></li>
       <li class="menu_items"><a href="#hobbies">Hobbies</a></li>
@@ -29,13 +30,14 @@
       <li class="menu_items"><a href="#future">Future</a></li>
     </ul>
   </section>
-  <hr size="3" noshade>
 
-  <section class="main">
-    <a name="about_me"></a>
-    <h1 class="title">About Me</h1>
+  <hr class="line">
+
+  <main>
+    <a id="about_me"></a>
     <div class="container">
       <article class="about_me">
+        <h1 class="title">About Me</h1>
         <p class="content">
           My name is Alex Stork, and I am an aspiring Front-End Web Developer. I graduated from the University of Texas A&M in 2016, with a Bachelor's of Science in Economics. I really enjoy working with computers and technology, because it's all
           connected and can be constantly improved upon.</p>
@@ -53,11 +55,11 @@
       </article>
     </div>
 
-    <hr size="3" noshade>
+    <hr class="line">
 
-    <a name="hobbies"></a>
-    <h1 class="title">My Hobbies</h1>
+    <a id="hobbies"></a>
     <article class="hobbies">
+      <h1 class="title">My Hobbies</h1>
       <div class="container">
         <div class="left">
           <h2>Spending Time with my Wife</h2>
@@ -82,10 +84,10 @@
       </div>
     </article>
 
-    <hr size="3" noshade>
-    <a name="fitness"></a>
-    <h1>Fitness</h1>
+    <hr class="line">
+    <a id="fitness"></a>
     <article class="fitness">
+      <h1>Fitness</h1>
       <div class="container">
         <div class="left">
           <h2>Working Out</h2>
@@ -97,63 +99,66 @@
           <img class="landscape" src="img/working_out.jpg" alt="working out">
         </div>
       </div>
-      <article class="hobbies">
-        <div class="container">
-          <div class="left">
-            <img class="portrait" src="img/marathon.jpg" alt="maratahon">
-          </div>
-          <div class="right">
-            <h2>Running</h2>
-            <p class="content">I also try to run races at least once a year. I've run 2 half marathons and 1 marathon.</p>
-
-            <p class="content">While at first apprehensive, I finally convinced my wife to run a half marathon with me in November of 2018.</p>
-          </div>
+    </article>
+    <article class="hobbies">
+      <div class="container">
+        <div class="left">
+          <img class="portrait" src="img/marathon.jpg" alt="maratahon">
         </div>
-      </article>
+        <div class="right">
+          <h2>Running</h2>
+          <p class="content">I also try to run races at least once a year. I've run 2 half marathons and 1 marathon.</p>
 
-      <hr size="3" noshade>
+          <p class="content">While at first apprehensive, I finally convinced my wife to run a half marathon with me in November of 2018.</p>
+        </div>
+      </div>
+    </article>
 
-      <a name="work"></a>
+    <hr class="line">
+
+    <a id="work"></a>
+
+    <article class="work">
       <h1>Work</h1>
-      <article class="work">
-        <div class="container">
-          <div class="left">
-            <h2>My Job</h2>
-            <p class="content">I currently work at a Transportation company that hauls both dry and refrigerated freight.</p>
+      <div class="container">
+        <div class="left">
+          <h2>My Job</h2>
+          <p class="content">I currently work at a Transportation company that hauls both dry and refrigerated freight.</p>
 
-            <p class="content">Over the past few years I've slowly been transitioning to working more with data analytics and working with software than with the logistics aspect of the job.</p>
-          </div>
-          <div class="right">
-            <img class="portrait" src="img/trucks.png" alt="trucks">
-          </div>
+          <p class="content">Over the past few years I've slowly been transitioning to working more with data analytics and working with software than with the logistics aspect of the job.</p>
         </div>
-        <article class="hobbies">
-          <div class="container">
-            <div class="left">
-              <img class="landscape" src="img/alex.jpg" alt="office">
-            </div>
-            <div class="right">
-              <h2>Programming at Work</h2>
-              <p class="content">My current company works with an antiquated system called AS400, but I've introduced more modern technologies to our operation like Google Drive and Slack.</p>
+        <div class="right">
+          <img class="portrait" src="img/trucks.png" alt="trucks">
+        </div>
+      </div>
+    </article>
+    <article class="hobbies">
+      <div class="container">
+        <div class="left">
+          <img class="landscape" src="img/alex.jpg" alt="office">
+        </div>
+        <div class="right">
+          <h2>Programming at Work</h2>
+          <p class="content">My current company works with an antiquated system called AS400, but I've introduced more modern technologies to our operation like Google Drive and Slack.</p>
 
-              <p class="content">I do get practice with coding at work currently, but the majority is with Excel formulas. I eventually want to work at a job that is more in-depth with programming.</p>
-            </div>
-          </div>
-        </article>
+          <p class="content">I do get practice with coding at work currently, but the majority is with Excel formulas. I eventually want to work at a job that is more in-depth with programming.</p>
+        </div>
+      </div>
+    </article>
 
-        <hr size="3" noshade>
+    <hr class="line">
 
-        <a name="future"></a>
-        <h1>Future</h1>
-        <article class="future">
-          <p class="content">As I continue to push myself to learn how to program, I hope to soon work at a job where I can practice and use these skills full-time.</p>
+    <a id="future"></a>
+    <article class="future">
+      <h1>Future</h1>
+      <p class="content">As I continue to push myself to learn how to program, I hope to soon work at a job where I can practice and use these skills full-time.</p>
 
-          <p class="content">My goal is to transition to a full-time Software Development role by 2020. As long as I manage my time well over this period of time, and continue to promote learning, I will be able to do this.</p>
-        </article>
+      <p class="content">My goal is to transition to a full-time Software Development role by 2020. As long as I manage my time well over this period of time, and continue to promote learning, I will be able to do this.</p>
+    </article>
 
-        <hr size="3" noshade>
+    <hr class="line">
 
-  </section>
+  </main>
 
   <footer>
     <p><strong>Author: </strong>Alex Stork</p>
