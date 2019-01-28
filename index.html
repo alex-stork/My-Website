@@ -4,52 +4,162 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Alex Stork's Portfolio</title>
 </head>
 
 <body>
-  <nav class="menu">
-    <ul>
-      <li class="menu_items">About Me</li>
-      <li class="menu_items">Hobbies</li>
-      <li class="menu_items">Fitness</li>
-      <li class="menu_items">Work</li>
-      <li class="menu_items">Future</li>
-    </ul>
-  </nav>
   <header>
-    <div class="header">
-        <div class="left"><img class="alex-stork" src="Photos/alex.jfif" alt="alex profile picture" height="100" width="100"></div>
+    <div class="container">
+      <div class="left"><img class="logo" src="img/as_logo.jpg" alt="logo for alex stork"></div>
       <div class="right">
         <h1>Alex Stork</h1>
         <h3>Front-End Web Developer</h3>
       </div>
     </div>
   </header>
+
+  <section class="menu">
+    <a name="top"></a>
+    <ul>
+      <li class="menu_items"><a href="#about_me">About Me</a></li>
+      <li class="menu_items"><a href="#hobbies">Hobbies</a></li>
+      <li class="menu_items"><a href="#fitness">Fitness</a></li>
+      <li class="menu_items"><a href="#work">Work</a></li>
+      <li class="menu_items"><a href="#future">Future</a></li>
+    </ul>
+  </section>
   <hr size="3" noshade>
-  <article class="about_me">
-    <p>
-      I am a Texas A&M graduate, class of 2016, majored in Economics. I really enjoy working with computers and technology, because it's all connected and can be constantly improved upon.
-      I like to play video games, work out, and hang out with my wife and family. I have an incredibly analytic mindset and love to work with numbers and logic. I discovered Programming in college but
-      have only recently become passionate about it 3 years later. I realized that with my analytical mindset and stengths with computers, I'd be a fantastic programmer if I took the time to learn.</p>
 
-    <p>
-      When I graduated college in 2016, I actually began working in the Logistics and Supply Chain industry, working my way up from a Customer Service Associate to an Operations Project Manager.
-      I actually believe coming from a background in Logistics rather than jumping straight into programming is actually a benefit, as it allows me to bring a new perspective to the team.
-      I am actively seeking a role in programming and software development, but understand that getting programming experience under my belt is necessary first.</p>
+  <section class="main">
+    <a name="about_me"></a>
+    <h1 class="title">About Me</h1>
+    <div class="container">
+      <article class="about_me">
+        <p class="content">
+          My name is Alex Stork, and I am an aspiring Front-End Web Developer. I graduated from the University of Texas A&M in 2016, with a Bachelor's of Science in Economics. I really enjoy working with computers and technology, because it's all
+          connected and can be constantly improved upon.</p>
 
-    <p>
-      I am now currently working on a NanoDegree through Udacity on Front-End Web Development, and have been tirelessly studying and working on code since the beginning of 2019.
-      My goal is to continue to self-teach until I have general basic knowledge of both front-end and back-end development, and/or I have the opportunity to work in a programming job where I can
-      practice my skills in real application.</p>
-  </article>
+        <p class="content">
+          I like to play video games, work out, and hang out with my wife and family. I have a very analytic mindset and love to work with numbers and logic. I discovered when I took a Programming course in college but
+          have only recently become passionate about it in 2019. I realized that with my logical way of thinking and my stengths with computers, I'd be a fantastic programmer if I took the time to learn.</p>
 
-  <hr size="3" noshade>
+        <p class="content">When I graduated college in 2016, I actually began working in the Logistics and Supply Chain industry, working my way up from a Customer Service Associate to an Operations Project Manager.
+          I actually believe coming from a background in Logistics rather than jumping straight into programming is actually a benefit, as it allows me to bring a new perspective to a programming team.</p>
+
+        <p class="content">I am now currently working on a NanoDegree through Udacity on Front-End Web Development, and have been tirelessly studying and working on code.
+          My goal is to continue to self-teach until I have general basic knowledge of both front-end and back-end development, and/or I have the opportunity to work in a programming job where I can
+          practice my skills in real application.</p>
+      </article>
+    </div>
+
+    <hr size="3" noshade>
+
+    <a name="hobbies"></a>
+    <h1 class="title">My Hobbies</h1>
+    <article class="hobbies">
+      <div class="container">
+        <div class="left">
+          <h2>Spending Time with my Wife</h2>
+          <p class="content">In my spare time I like spending time with my wife. We've been married for over 2 years, and met in college.</p>
+
+          <p class="content">We enjoy going to the movies, going out to eat, and going swimming.</p>
+        </div>
+        <div class="right">
+          <img class="landscape" src="img/swimming.jpg" alt="swimming">
+        </div>
+      </div>
+      <div class="container">
+        <div class="left">
+          <img class="portrait" src="img/video_games.jpg" alt="video games">
+        </div>
+        <div class="right">
+          <h2>Video Games</h2>
+          <p class="content"> I also like to play video games. I have a Playstation, Switch, and a gaming PC.</p>
+
+          <p class="content">I hope to one day be able to create my own video game, or work on a team that develops one.</p>
+        </div>
+      </div>
+    </article>
+
+    <hr size="3" noshade>
+    <a name="fitness"></a>
+    <h1>Fitness</h1>
+    <article class="fitness">
+      <div class="container">
+        <div class="left">
+          <h2>Working Out</h2>
+          <p class="content"> I like to work out at the gym, and try to at least 4 times a week in the mornings before work.</p>
+
+          <p class="content">I find it more challenging to keep working out if I take too many days off, which is why momentum is so important!</p>
+        </div>
+        <div class="right">
+          <img class="landscape" src="img/working_out.jpg" alt="working out">
+        </div>
+      </div>
+      <article class="hobbies">
+        <div class="container">
+          <div class="left">
+            <img class="portrait" src="img/marathon.jpg" alt="maratahon">
+          </div>
+          <div class="right">
+            <h2>Running</h2>
+            <p class="content">I also try to run races at least once a year. I've run 2 half marathons and 1 marathon.</p>
+
+            <p class="content">While at first apprehensive, I finally convinced my wife to run a half marathon with me in November of 2018.</p>
+          </div>
+        </div>
+      </article>
+
+      <hr size="3" noshade>
+
+      <a name="work"></a>
+      <h1>Work</h1>
+      <article class="work">
+        <div class="container">
+          <div class="left">
+            <h2>My Job</h2>
+            <p class="content">I currently work at a Transportation company that hauls both dry and refrigerated freight.</p>
+
+            <p class="content">Over the past few years I've slowly been transitioning to working more with data analytics and working with software than with the logistics aspect of the job.</p>
+          </div>
+          <div class="right">
+            <img class="portrait" src="img/trucks.png" alt="trucks">
+          </div>
+        </div>
+        <article class="hobbies">
+          <div class="container">
+            <div class="left">
+              <img class="landscape" src="img/alex.jpg" alt="office">
+            </div>
+            <div class="right">
+              <h2>Programming at Work</h2>
+              <p class="content">My current company works with an antiquated system called AS400, but I've introduced more modern technologies to our operation like Google Drive and Slack.</p>
+
+              <p class="content">I do get practice with coding at work currently, but the majority is with Excel formulas. I eventually want to work at a job that is more in-depth with programming.</p>
+            </div>
+          </div>
+        </article>
+
+        <hr size="3" noshade>
+
+        <a name="future"></a>
+        <h1>Future</h1>
+        <article class="future">
+          <p class="content">As I continue to push myself to learn how to program, I hope to soon work at a job where I can practice and use these skills full-time.</p>
+
+          <p class="content">My goal is to transition to a full-time Software Development role by 2020. As long as I manage my time well over this period of time, and continue to promote learning, I will be able to do this.</p>
+        </article>
+
+        <hr size="3" noshade>
+
+  </section>
 
   <footer>
-    <p>Author: Alex Stork</p>
-    <p>Email: <a href="mailto:s.alex.stork@gmail.com">s.alex.stork@gmail.com</a></p>
+    <p><strong>Author: </strong>Alex Stork</p>
+    <p><strong>My GitHub: </strong><a href="https://github.com/alex-stork">https://github.com/alex-stork</a></p>
+    <p><strong>Email Me: </strong><a href="mailto:s.alex.stork@gmail.com">s.alex.stork@gmail.com</a></p>
+    <p><a href="#top">Return to Top</a></p>
   </footer>
 </body>
 
